@@ -2,15 +2,15 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'e5f36a37196a43a78ffdd72dc78be663',
- 
+  rootNotionPageId: 'd64869eabdea42f095dd3e8f1c1cd662',
+
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'The Circular Design Fresk',
-  domain: 'circular-design-fresk.com',
+  name: 'Circular Odyssey',
+  domain: 'circular-odyssey.com',
   author: 'Baptiste Sene-Donnais',
 
   // open graph metadata (optional)
@@ -20,6 +20,7 @@ export default siteConfig({
   twitter: '_basendo',
   github: 'thisizatriumph',
   linkedin: 'senebaptiste',
+  // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
