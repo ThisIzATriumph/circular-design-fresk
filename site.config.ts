@@ -2,16 +2,16 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'd64869eabdea42f095dd3e8f1c1cd662',
+  rootNotionPageId: 'e5f36a37196a43a78ffdd72dc78be663',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Circular Odyssey',
-  domain: 'circular-odyssey.com',
-  author: 'Baptiste Sene-Donnais',
+  name: 'Circular Design Fresk',
+  domain: 'circular-design-fresk.com',
+  author: 'Estelle Fraysse & Baptiste Sene-Donnais',
 
   // open graph metadata (optional)
   description: 'Baptiste Sene explores uncharted areas of the Circular design practice.',
