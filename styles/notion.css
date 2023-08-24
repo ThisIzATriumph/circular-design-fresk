@@ -153,30 +153,64 @@
   text-align: center;
 }
 
-/* Main title (Rootpage!) */
-/* .notion-title-d64869eabdea42f095dd3e8f1c1cd662 {
+/* Main title (In root page!) */
+.notion-block-e5f36a37196a43a78ffdd72dc78be663 .notion-title {
   font-family: CanelaDeck-Bold;
-  font-size: 6em;
-  display: block;
-  text-align: left;
-} */
-
-.notion-block-d64869eabdea42f095dd3e8f1c1cd662 .notion-title {
-  font-family: CanelaDeck-Bold;
-  font-size: 6em;
   display: block;
   text-align: left;
 }
 
+/* 800px or more: sized windows for Main title in root page */
+@media screen and (min-width: 800px) {
+
+  .notion-block-e5f36a37196a43a78ffdd72dc78be663 .notion-title {
+  
+  font-size: 6vw;
+  
+  }
+  
+  }
+
+  /* 799px or less: sized windows for Main title in root page */
+@media screen and (max-width: 799px) {
+
+  .notion-block-e5f36a37196a43a78ffdd72dc78be663 .notion-title {
+    
+  font-size: 10vw;
+  
+  }
+  
+  }
 
 /* Sub title (Rootpage!) */
-.notion-block-3855170f4b9549f29d7ee5589fa2316f {
+.notion-block-0bcf1392ffe1417fbec909b6101cc301 {
   font-family: Lato thin 100;
-  font-size: 2.5em;
-  max-width: 23em;
+  max-width: 28em;
   display: block;
   text-align: left;
 }
+
+/* 800px or more: sized windows for Main title in root page */
+@media screen and (min-width: 800px) {
+
+  .notion-block-0bcf1392ffe1417fbec909b6101cc301 {
+  
+  font-size: 2.5vw;
+  
+  }
+  
+  }
+
+  /* 799px or less: sized windows for Main title in root page */
+@media screen and (max-width: 799px) {
+
+  .notion-block-0bcf1392ffe1417fbec909b6101cc301 {
+  
+  font-size: 4vw;
+  
+  }
+  
+  }
 
 .notion-callout {
   margin: 0.75em 0;
